@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SavvySeniors Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/Untitled design (1).png"></a>
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>   
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="programs.html">PROGRAMS/EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>    
+    </nav>
+    
+    <h1>About Us</h1>
+
+</section> 
+
+
+<!--About Us Content-->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are SavvySeniors</h1>
+            <p>Our team, founded by three driven high school seniors: Emily Zhou, Eliza Kubicek, and Mirella Janssen, shares a passion for technology and community service. <br>Even as a team, while we each take on specific responsibilities within the organziation, <br>we prioritize a collaborative approach, addressing tasks and challenges with diverse perspectives. <br>Our emphasis is on collective brainstorming, constructive feedback, and <br>continuous improvement rather than on individual roles, which makes our organziation all the more unique and impactful.</p>
+            <a href="resources.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/Eliza.png">
+        </div>
+            
+    </div>
+
+
+
+</section>
+
+
+<!--Little Descriptions of Us-->
+
+<section class="events">
+
+    <h1>Get to Know Us!</h1>
+    <p>Here are quick little descriptions of the SavvySenior Co-Founders!</p>
+
+    <div class="row">
+        <div class="events-col">
+            <img src="images/mirella.pdf.png">
+            <h3>Mirella Janssen</h3>
+            <p>Passionate, excited, and full of optimism, Emily brings that same energy to her work at SavvySeniors. <br>When she isn't geeking out over the latest tech or swooning over a new drama, you'll most likely find her curled up on the couch with a good book.</p>
+        </div>
+        <div class="events-col">
+            <img src="images/emily.pdf.png">
+            <h3>Emily Zhou</h3>
+            <p>Passionate, excited, and full of optimism, Emily brings that same energy to her work at SavvySeniors. <br>When she isn't geeking out over the latest tech or swooning over a new drama, you'll most likely find her curled up on the couch with a good book.</p>
+        </div>
+        <div class="events-col">
+            <img src="images/elizaaa.pdf.png">
+            <h3>Eliza Kubicek</h3>
+            <p>Passionate, excited, and full of optimism, Emily brings that same energy to her work at SavvySeniors. <br>When she isn't geeking out over the latest tech or swooning over a new drama, you'll most likely find her curled up on the couch with a good book.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>SavvySeniors is a student-led organization dedicated to supporting the elderly in our community <br> by improving their technological literacy.</p>
+    <div class="icons">
+        <a href="https://www.youtube.com/@SavvySeniors-gn5nh" target="_blank">
+            <i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:savvyseniors001@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>Self Programmed with <i class="fa-regular fa-heart"></i> by Emily Zhou, SavvySeniors</p>
+
+</section>
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

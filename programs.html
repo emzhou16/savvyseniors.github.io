@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SavvySeniors Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/Untitled design (1).png"></a>
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>   
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="programs.html">PROGRAMS/EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>    
+    </nav>
+    
+    <h1>Our Programs & Events</h1>
+
+</section> 
+
+
+<!--programs/events/THE THREE BLCOKS-->
+
+
+<section class="programs">
+    <h1>Our Current Programs</h1>
+    <p>SavvySeniors offers a variety of services tailored to our senior residents!</p>
+
+
+    <div class="row">
+        <div class="programs-col">
+            <h3>In Person Assistance</h3>
+            <p>We proudly volunteer at three primary senior living communities: Arbor Glen, Stonecrest, and Norris Square. Our visits feature engaging presentations filled with games and distribute educational resources like brochures. We cover a wide range of technology topics, from beginner to advanced levels, ensuring personalized support across various devices.</p>
+
+        </div>
+
+        <div class="programs-col">
+            <h3>Online Support</h3>
+            <p>
+                In addition to in-person support, SavvySeniors offers a variety of online resources to assist seniors. Our website provides accessible tech guides and tips, with 24/7 email support. We also offer a YouTube channel with free cell phone tutorials in Dutch, Chinese, and Spanish.</p>
+
+        </div>
+
+        <div class="programs-col">
+            <h3>Community Impact</h3>
+            <p>While we prioritize individualized support, we're also dedicated to expanding the SavvySeniors mission to a wider audience. Our goal is to make technology more accessible for seniors and provide the guidance they need to navigate online platforms with ease. </p>
+
+        </div>
+
+    </div>
+
+
+<!--Facilities-->
+
+
+
+<section class="events">
+
+    <h1>Upcoming Events</h1>
+    <p>Here are the current and upcoming key dates for Savvy Seniors!</p>
+
+    <div class="row">
+        <div class="events-col">
+            <img src="images/unnamed-2.png">
+            <h3>In-Person</h3>
+            <p>Stonecrest- Saturdays 1:30-3:30pm <br>Norris Square- Mondays 2:30-4:00pm <br>Arbor Glenn- Fridays 2:30-4:00pm</p>
+        </div>
+        <div class="events-col">
+            <img src="images/IMG_3237 2.pdf">
+            <h3>Community Fairs</h3>
+            <p>Woodbury Days at Ojibway Park <br> Saturday, August 24, 5PM-8PM <br> Sunday, August 25, 1PM-3PM</p>
+        </div>
+        <div class="events-col">
+            <img src="images/IMG_3163.pdf">
+            <h3>Online</h3>
+            <p>No Upcoming Events</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>SavvySeniors is a student-led organization dedicated to supporting the elderly in our community <br> by improving their technological literacy.</p>
+    <div class="icons">
+        <a href="https://www.youtube.com/@SavvySeniors-gn5nh" target="_blank">
+            <i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:savvyseniors001@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>Self Programmed with <i class="fa-regular fa-heart"></i> by Emily Zhou, SavvySeniors</p>
+
+</section>
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

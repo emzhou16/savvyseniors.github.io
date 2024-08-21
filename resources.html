@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SavvySeniors Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/Untitled design (1).png"></a>
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>   
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="programs.html">PROGRAMS/EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>    
+    </nav>
+    
+    <h1>Online Resources</h1>
+
+</section> 
+
+<!--online resources-->
+<section class="resources">
+
+    <div class="row">
+        <div class="resources-left">
+
+            <img src="images/Untitled design-8.png">
+            <h2>Monthly Tech Tips</h2>
+            <p>Hi there! I wanted to share a few tech tips that can make your digital life a bit easier and more enjoyable.</p>
+                <br>
+                <p>First, staying in touch with your loved ones has never been easier with video calls. Apps like Zoom, Skype, or FaceTime allow you to see and chat with family and friends, no matter the distance. It might seem a bit daunting at first, but once you get the hang of it, it's a great way to feel connected, especially if you can't meet in person often.</p>
+                <br>
+                <p>Next, if you haven't tried using a voice assistant like Alexa, Google Assistant, or Siri, give it a shot! These handy tools can help you with daily tasks just by asking. Whether it's setting reminders, checking the weather, or even controlling the lights in your home, you can do it all without lifting a finger. It's a small change that can make a big difference in your day-to-day life.</p>
+                <br>
+                <p>Lastly, let's talk about staying safe online. It is important to use strong passwords and, if possible, set up two-factor authentication to keep your accounts secure. Be careful with emails or messages from people you don't know—if something seems suspicious, it is better to ignore it. And remember to keep your devices and apps updated to protect against any security risks. Staying safe online is just as important as staying safe in the real world!
+            </p>
+
+
+            <!--<div class="comment-box">
+                <h3>Leave a Comment!</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>-->
+
+
+        </div>
+        <div class="resources-right">
+            <h3>Resource Links <br> Click on the Icon!</h3>
+            <div>
+                <span>SavvySeniors Youtube Channel</span>
+                <span><a href="https://www.youtube.com/@SavvySeniors-gn5nh" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a></span>
+            </div>
+            <div>
+                <span>Our Email for invidualized support</span>
+                <span><a href="mailto:savvyseniors001@gmail.com"><i class="fa-solid fa-envelope"></i></a></span>
+            </div>
+            <div>
+                <span>Cell Phone Basics Educational Brochure</span>
+                <span><a href="https://www.canva.com/design/DAF-mulLX_Q/J2liVNgt03XSKm7XBa9oTA/view?utm_content=DAF-mulLX_Q&utm_campaign=designshare&utm_medium=link&utm_source=editor"><i class="fa-solid fa-laptop-file"></i></a></span>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>SavvySeniors is a student-led organization dedicated to supporting the elderly in our community <br> by improving their technological literacy.</p>
+    <div class="icons">
+        <a href="https://www.youtube.com/@SavvySeniors-gn5nh" target="_blank">
+            <i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:savvyseniors001@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>Self Programmed with <i class="fa-regular fa-heart"></i> by Emily Zhou, SavvySeniors</p>
+
+</section>
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
